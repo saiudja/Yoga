@@ -224,6 +224,13 @@ footer .primary-link {
   p {
     padding: 10px 10px;
   }
+  .my-photo {
+    margin: 30px auto;
+    padding: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50%;
+  }
 }
 nav {
   font-size: 12px;
