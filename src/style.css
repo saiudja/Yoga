@@ -1,6 +1,6 @@
 body {
   background: #ebdcb2;
-  font-family: "Roboto", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   max-width: 100%;
 }
 :root {
@@ -20,50 +20,19 @@ body {
   max-width: 100%;
   height: auto;
 }
-.diplom {
-  max-width: 400px;
-}
 .hero {
   background-color: rgba(235, 220, 178, 0.2);
   margin-top: 56px;
-  padding: 60px 20px;
-}
-.hero ul {
-  margin: 0 30px;
-  padding: 0;
-  list-style-type: style type;
-}
-.main {
-  padding: 0 20px;
-  margin-top: 10px;
-}
-.skils {
-  margin-top: 0;
-  text-align: justify;
-  padding: 10px 30px 30px 30px;
-}
-.underline {
-  text-decoration: underline;
-  font-weight: 500;
-}
-
-#color-third {
-  color: var(--third-color);
-  font-size: 22px;
-}
-.container-main {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
+  padding: 60px 60px;
 }
 h1 {
   color: var(--primary-color);
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 800;
 }
 h2 {
   color: var(--secondary-color);
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 500;
 }
 h3 {
@@ -80,11 +49,34 @@ h3 {
 }
 p {
   color: var(--secondary-color);
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 600;
   padding: 10px 50px;
   margin: 0;
   text-align: justify;
+}
+ul {
+  list-style-type: none;
+}
+.chakra {
+  color: var(--secondary-color);
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+}
+.name {
+  color: var(--primary-color);
+  font-size: 22px;
+  font-style: bold;
+  margin: 10px;
+}
+.describ {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  padding: 0;
+  margin: 10px;
 }
 .navigation-links {
   display: flex;
@@ -147,31 +139,33 @@ p {
 .contact a {
   color: var(--secondary-color);
 }
-
-.about-section {
-  margin: 80px 30px 30px 30px;
-  text-align: center;
+.material-symbols-outlined {
+  color: var(--primary-color);
+  font-size: 26px;
+  padding: 8px 14px;
+  transition: all 100ms ease-in-out;
+  vertical-align: middle;
 }
-.about-section p {
-  font-style: italic;
-  text-align: justify;
+#zero {
+  color: rgb(255, 0, 0);
 }
-.describtion {
-  margin-top: 76px;
-  padding: 20px 50px;
+#one {
+  color: rgb(255, 145, 0);
 }
-.diplomas {
-  margin: 0 auto;
-  display: block;
+#two {
+  color: rgb(255, 251, 0);
 }
-.git {
-  color: var(--forth-color);
-  font-size: 14px;
-  text-align: center;
-  padding: 0 40px;
+#three {
+  color: rgb(12, 117, 9);
 }
-.frontend {
-  padding: 50px;
+#four {
+  color: rgb(0, 153, 255);
+}
+#five {
+  color: rgb(17, 0, 255);
+}
+#six {
+  color: rgb(62, 2, 80);
 }
 .navbar {
   background-color: #ebdcb2;
@@ -201,27 +195,19 @@ nav li.active a {
 .logo {
   max-height: 40px;
 }
-footer .contact-box {
-  background: rgba(0, 187, 240, 0.1);
-  padding: 40px 60px;
-  border-radius: 10px;
-  margin: 40px;
-}
-footer .contact-box p {
-  margin: 0;
-}
+
 footer .social-links {
   text-align: center;
   margin-top: 30px;
 }
+.links p {
+  font-size: 12px;
+}
 footer .social-links a {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 18px;
   margin: 0 20px;
-  background: rgba(0, 187, 240, 0.1);
   padding: 8px 14px;
-  border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
 footer .social-links a:hover {
@@ -260,10 +246,5 @@ footer .primary-link {
   }
   .navigation-links {
     block-size: 50px;
-  }
-  .diplom {
-    max-width: 300px;
-    margin: 0 auto;
-    display: block;
   }
 }
