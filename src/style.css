@@ -76,7 +76,9 @@ ul {
   font-size: 22px;
   font-weight: 500;
   font-style: italic;
+  list-style-type: none;
 }
+
 .name {
   color: var(--primary-color);
   font-size: 22px;
@@ -170,7 +172,7 @@ ul {
   color: rgb(255, 145, 0);
 }
 #two {
-  color: rgba(245, 229, 1, 0.747);
+  color: rgba(224, 221, 0, 0.993);
 }
 #three {
   color: rgb(12, 117, 9);
