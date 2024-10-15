@@ -26,6 +26,11 @@ body {
   height: auto;
   text-align: center;
 }
+.photo-full {
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
 .hero {
   background-color: rgba(235, 220, 178, 0.2);
   margin-top: 56px;
@@ -249,6 +254,11 @@ footer .primary-link {
     padding: 0;
     border-radius: 50%;
     overflow: hidden;
+    width: 100%;
+  }
+  .photo-full {
+    margin: 0 auto;
+    padding: 0;
     width: 100%;
   }
   .hero {
