@@ -47,7 +47,7 @@ h2 {
   font-weight: 500;
 }
 h3 {
-  color: var(--third-color);
+  color: var(--primary-color);
   font-size: 18px;
   font-weight: 400;
   opacity: 0.7;
@@ -134,6 +134,15 @@ ul {
   color: var(--primary-color);
   font-size: 18px;
   text-decoration: none;
+}
+.link {
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.link:hover {
+  text-decoration: underline;
 }
 .email-link {
   display: flex;
