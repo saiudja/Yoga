@@ -1,10 +1,11 @@
 body {
-  background: #ebdcb2;
   font-family: "Comfortaa", sans-serif;
   max-width: 100%;
+  color: var(--secondary-color);
+  background-color: var(--forth-color);
 }
 :root {
-  --primary-color: #af4425;
+  --primary-color: #c9261d;
   --secondary-color: #662e1c;
   --third-color: #c9a66b;
   --forth-color: #ebdcb2;
@@ -32,7 +33,7 @@ body {
   text-align: center;
 }
 .hero {
-  background-color: rgba(235, 220, 178, 0.2);
+  background-color: var(--forth-color);
   margin-top: 56px;
   padding: 60px 80px;
 }
@@ -49,7 +50,7 @@ h2 {
 h3 {
   color: var(--primary-color);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: bold;
   opacity: 0.7;
 }
 h1,
@@ -65,6 +66,7 @@ p {
   padding: 0;
   text-align: justify;
 }
+
 ul {
   list-style-type: symbols(4);
   color: var(--secondary-color);
@@ -119,7 +121,7 @@ ul {
 .secondary-link {
   text-transform: capitalize;
   color: var(--primary-color);
-  padding: 20px 15px;
+  padding: 10px 15px;
   text-decoration: none;
   border-radius: 4px;
   border: 1px solid var(--primary-color);
@@ -156,15 +158,7 @@ ul {
 .email-link:hover {
   text-decoration: underline;
 }
-.contacts {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 30px 30% 0px 30%;
-  color: var(--secondary-color);
-}
-.contact a {
-  color: var(--secondary-color);
-}
+
 .g {
   color: var(--primary-color);
   font-size: 26px;
@@ -172,7 +166,10 @@ ul {
   transition: all 100ms ease-in-out;
   vertical-align: middle;
 }
-
+footer {
+  background-color: var(--third-color);
+  padding: 20px 0;
+}
 #zero {
   color: rgb(255, 0, 0);
   vertical-align: middle;
