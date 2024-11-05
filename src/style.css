@@ -30,9 +30,11 @@ body {
   overflow: hidden;
 }
 .photo-full {
-  width: 50%;
+  width: 40%;
   height: auto;
   text-align: center;
+  border-radius: 4%;
+  overflow: hidden;
 }
 .hero {
   background-color: var(--forth-color);
